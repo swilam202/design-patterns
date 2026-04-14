@@ -20,7 +20,7 @@
 // the client code now only needs to interact with the HomeFacade, completely hiding the underlying complexity.
 
 //! pitfalls
-// 1. a facade can become a "god object" coupled to all classes of an app if it grows too large.
+// 1. a facade can become a "father object" coupled to all classes of an app if it grows too large.
 // 2. it adds an extra layer of abstraction, which might be overkill if the subsystem is already simple enough.
 
 // a complex subsystem component representing a TV
